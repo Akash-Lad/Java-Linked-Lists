@@ -53,7 +53,6 @@ public class LinkedList {
     {
         LinkedList list = new LinkedList();
 
-    
         list = insert(list, 1);
         list = insert(list, 2);
         list = insert(list, 3);
@@ -62,7 +61,7 @@ public class LinkedList {
         list = insert(list, 6);
         list = insert(list, 7);
         list = insert(list, 8);
-
+        
         printList(list);
     }
 }
